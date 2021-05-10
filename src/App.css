@@ -1,5 +1,5 @@
 .App {
-  margin: 5%;
+  margin: 2%;
 }
 .card {
   margin: 10px;
@@ -8,3 +8,69 @@
 .divider {
   border-bottom: 1px solid;
 }
+
+.market-data {
+  font-size: 12px !important;
+}
+
+.market-data .row {
+  padding: 2px 0 !important;
+}
+
+.market-data .list-group-item {
+  padding: 10px 8px;
+}
+
+.second-div .col:first-child {
+  min-width: 150px;
+}
+
+.third-div .col:first-child , .forth-div .col:first-child{
+  min-width: 150px;
+}
+
+.bold-txt {
+  font-weight: 900;
+}
+
+.donut-chart {
+  width: inherit !important;
+  height: inherit !important;
+  padding: 5px 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.donut-chart svg.donutchart {
+  width: inherit !important;
+  height: inherit !important;
+}
+
+.share-prive {
+  color: #0fb0b9;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.i-share {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: auto;
+  color: #37c778;
+}
+
+.bold-label {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.button-div:last-child {
+  margin-top: 6px;
+}
+
+.market-continer {
+  height: 200px;
+  overflow: auto;
+}
+  
